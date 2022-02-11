@@ -1,0 +1,7 @@
+{
+  "name": "PlayerTrails",
+  "version_number": "0.5.0",
+  "website_url": "https://github.com/Strykus/PlayerTrails",
+  "description": "Adds custom PlayerTrails in servers lobby settings",
+  "dependencies": []
+}
