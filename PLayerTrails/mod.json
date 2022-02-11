@@ -1,0 +1,19 @@
+{
+  "Name": "PlayerTrails",
+  "Description": "Adds PlayerTrails in servers lobby settings",
+  "Version": "1.1.1",
+  "LoadPriority": 0,
+	"Scripts": [
+		{
+			"Path": "playertrailsIntFunc.nut",
+			"RunOn": "CLIENT || SERVER",
+            "ServerCallback": {
+				"Before": "playertrailsIntFunc"
+			},
+            "ClientCallback": {
+				"Before": "playertrailsIntFunc"
+			}
+		}
+		
+	]
+}
